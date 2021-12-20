@@ -99,7 +99,7 @@ post_search: false
 
 navbar-col: "#343434"
 navbar-text-col: "#619EF7"
-navbar-border-col: "#404040"
+navbar-border-col: "#000000"
 page-col: "#343434"
 text-col: "#619EF7"
 link-col: "#615DEA"
