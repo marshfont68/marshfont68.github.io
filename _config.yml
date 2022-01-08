@@ -98,16 +98,16 @@ post_search: false
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
 navbar-col: "#343434"
-navbar-text-col: "#619EF7"
+navbar-text-col: "#FFFFFF"
 navbar-border-col: "#202020"
 page-col: "#282828"
-text-col: "#619EF7"
+text-col: "#FFFFFF"
 link-col: "#615DEA"
-hover-col: "#3C37EC"
+hover-col: "#787878"
 footer-col: "#343434"
-footer-text-col: "#619EF7"
-footer-link-col: "#615DEA"
-footer-hover-col: "#3C37EC"
+footer-text-col: "#FFFFFF"
+footer-link-col: "#6A6A6A"
+footer-hover-col: "#787878"
 
 # -- Red Colors -- 
 #text-col: "#F15947"
