@@ -1,0 +1,35 @@
+.navbar{
+    height:100vh;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 16px;
+    width: 4.8rem;
+    z-index: 9;
+}
+
+.navbar ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+.navbar a{
+    padding: 10px 16px 10px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    align-self: center;
+}
+
+.fas:hover{
+    color: #8c22e3 !important;
+}
+
+@media screen and (max-height: 450px) {
+    .navbar {padding-top: 15px;}
+    .navbar ul li a {font-size: 18px;}
+  }
