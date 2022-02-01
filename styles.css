@@ -17,7 +17,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: justify;
     min-height: 400px;
     padding: 80px 20vw;
 
@@ -28,12 +28,8 @@ h1 {
     font-weight: bold;
 }
 
-.blue {
-    background: #227fe3;
-}
-
-.purple {
-    background: #1e0141;
+p {
+    font-size: x-large;
 }
 
 .spacer {
@@ -48,13 +44,11 @@ h1 {
     
 }
 
-.layer1 {
-    background-image: url('./svg/layered-peaks-haikei\ \(8\).svg');
-    z-index: 8;
-}
-
-.layer2 {
-    background-image: url('./svg/stacked-steps-haikei.svg')
+.avatar {
+    vertical-align: middle;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 }
 
 .text-gradient {
@@ -63,50 +57,9 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
-.btn {
-    background-color: #227fe3;
-    color: white;
-    font-family: 'Fira Sans';
-    font-size: 18;
-    padding: 18px;
-    margin: 0.5rem;
-    border-radius: 100%;
-    border-style: none;
-    transition: all 0.3s ease;
-    float: left;
-    cursor: pointer;
-}
-
-.btn2 {
-    background-color: #227fe3;
-    color: white;
-    font-family: 'Fira Sans';
-    font-weight: bold;
-    font-size: 18;
-    padding: 12px 24px;
-    margin: 0.5rem;
-    border-radius: 4px;
-    border-style: none;
-    transition: all 0.3s ease;
-    float: left;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.btn:hover {
-    background-color: rgb(5, 36, 77);
-    transition: all 0.3s ease;
-}
-
-.btn2:hover {
-    background-color: rgb(5, 36, 77);
-    transition: all 0.3s ease;
-}
-
-
 @media only screen and (max-width: 600px) {
-    html{
-        scroll-behavior: smooth;
+    p {
+        font-size: large;
     }
     
     h1 {
@@ -114,19 +67,21 @@ h1 {
         font-weight: bold;
     }
 
-    .btn {
-        background-color: #227fe3;
-        font-family: 'Fira Sans';
-        font-size: 18;
-        border-radius: 100%;
-        padding: 20px;
-        margin: 0.5rem;
-        border-style: none;
-        transition: all 0.3s ease;
-        display: inline-block;
+    .avatar {
+        vertical-align: middle;
+        width: 190px;
+        height: 190px;
+        border-radius: 50%;
     }
+
+    section{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        min-height: 400px;
+        padding: 80px 18vw;
     
-    .btn-group {
-        padding: 10px;
     }
 }
