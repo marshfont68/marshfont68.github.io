@@ -23,6 +23,23 @@ section{
 
 }
 
+.skip-nav-link {
+    background: #100e9b;
+    color: #b21bd8;
+    font-family: 'Fira Sans';
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    left: 5rem;
+    position: absolute;
+    transform: translateY(-120%);
+    transition: transform 325ms ease-in;
+
+}
+
+.skip-nav-link:focus {
+    transform: translateY(0);
+}
+
 h1 {
     font-size: 80px;
     font-weight: bold;
