@@ -25,15 +25,35 @@
     align-self: center;
 }
 
+.fa-home {
+    transition: all 0.3s ease;
+}
 .fa-home:hover{
     color: #8c22e3 !important;
+    transition: all 0.3s ease;
+}
+.fa-user {
+    transition: all 0.3s ease;
 }
 .fa-user:hover{
     color: #8c22e3 !important;
+    transition: all 0.3s ease;
+}
+.fa-link:hover{
+    transition: all 0.3s ease;
 }
 .fa-link:hover{
     color: #8c22e3 !important;
+    transition: all 0.3s ease;
 }
+.fa-file {
+    transition: all 0.3s ease;
+}
+.fa-file:hover{
+    color: #8c22e3 !important;
+    transition: all 0.3s ease;
+}
+
 .btn {
     background-color: #227fe3;
     color: white;
